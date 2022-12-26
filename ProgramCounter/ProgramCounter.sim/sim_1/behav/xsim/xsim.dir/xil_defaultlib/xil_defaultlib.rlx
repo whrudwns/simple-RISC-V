@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Project/ProgramCounter/ProgramCounter.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Project/ProgramCounter/ProgramCounter.srcs/sim_1/new/tb.v,1671525162,verilog,,,,tb,,,,,,,,
+C:/Project/ProgramCounter/ProgramCounter.srcs/sources_1/new/Program_Counter.v,1671519137,verilog,,C:/Project/ProgramCounter/ProgramCounter.srcs/sources_1/new/reg_file.v,,Program_Counter,,,,,,,,
+C:/Project/ProgramCounter/ProgramCounter.srcs/sources_1/new/reg_file.v,1671525195,verilog,,C:/Project/ProgramCounter/ProgramCounter.srcs/sim_1/new/tb.v,,reg_file,,,,,,,,

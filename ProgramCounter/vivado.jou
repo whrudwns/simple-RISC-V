@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Dec 20 16:42:49 2022
+# Process ID: 9192
+# Current directory: C:/Project/ProgramCounter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent800 C:\Project\ProgramCounter\ProgramCounter.xpr
+# Log file: C:/Project/ProgramCounter/vivado.log
+# Journal file: C:/Project/ProgramCounter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Project/ProgramCounter/ProgramCounter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/tb/reg_0/regs}} 
+save_wave_config {C:/Project/ProgramCounter/tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Project/ProgramCounter/tb_behav.wcfg
+set_property xsim.view C:/Project/ProgramCounter/tb_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+current_wave_config {tb_behav.wcfg}
+add_wave {{/tb/a}} 
+save_wave_config {C:/Project/ProgramCounter/tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Project/ProgramCounter/tb_behav.wcfg
+source tb.tcl
+close_sim
