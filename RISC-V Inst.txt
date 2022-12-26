@@ -1,0 +1,11 @@
+5bit -> function ex)lw, sw, add .....
+5bit/5bit/5ibt -> rs1, rs2, rd 
+12bit -> don't use now
+
+
+
+LW  00000_rs_rd			use 15bits
+SW	00001_rs_rd			use 15bits
+add	00010_rs1_rs2_rd	use 20bits
+sub	00011_rs1_rs2_rd	use 20bits
+mul	00100_rs1_rs2_rd	use 20bits
