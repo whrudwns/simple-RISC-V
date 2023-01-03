@@ -21,7 +21,7 @@
 module Program_Counter(clk, ctr, out, rst);
 input   clk, rst, ctr;
 //input   [31:0] in;
-output reg  [31:0] out;
+output reg  [4:0] out;
 
 always @(posedge clk or posedge rst) begin
     if (rst)

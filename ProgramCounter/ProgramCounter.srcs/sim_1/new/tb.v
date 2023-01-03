@@ -22,10 +22,10 @@
 
 module tb();
 reg clk, rst, wr_en;
-reg [4:0]  rd_addr1, rd_addr2, wr_addr;
+reg [4:0]  out, rd_addr1, rd_addr2, wr_addr;
 reg [31:0] wr_data;
 
-wire [31:0] out, rd_data1, rd_data2;
+wire [31:0] rd_data1, rd_data2;
 
 integer i;
 integer a;
