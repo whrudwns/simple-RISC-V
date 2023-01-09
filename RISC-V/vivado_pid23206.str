@@ -1,0 +1,547 @@
+/*
+
+Xilinx Vivado v2022.2 (64-bit) [Major: 2022, Minor: 2]
+SW Build: 3671981 on Fri Oct 14 04:59:54 MDT 2022
+IP Build: 3669848 on Fri Oct 14 08:30:02 MDT 2022
+
+Process ID (PID): 23206
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Jan 06 14:39:37 KST 2023
+Time zone: 	Korean Standard Time (Asia/Seoul)
+
+OS: Ubuntu
+OS Version: 4.15.0-142-generic
+OS Architecture: amd64
+Available processors (cores): 32
+
+Display: localhost:15.0
+Screen size: 1920x950
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/usr/local/packages/xilinx/Vivado/2022.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/usr/local/packages/xilinx/Vivado/2022.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	jo
+User home directory: /home/jo
+User working directory: /home/titan/jo/WORK/RISC-V
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /usr/local/packages/xilinx/Vivado
+HDI_APPROOT: /usr/local/packages/xilinx/Vivado/2022.2
+RDI_DATADIR: /usr/local/packages/xilinx/Vivado/2022.2/data
+RDI_BINDIR: /usr/local/packages/xilinx/Vivado/2022.2/bin
+
+Vivado preferences file: /home/jo/.Xilinx/Vivado/2022.2/vivado.xml
+Vivado preferences directory: /home/jo/.Xilinx/Vivado/2022.2/
+Vivado layouts directory: /home/jo/.Xilinx/Vivado/2022.2/data/layouts
+PlanAhead jar file: 	/usr/local/packages/xilinx/Vivado/2022.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/titan/jo/WORK/RISC-V/vivado.log
+Vivado journal file: 	/home/titan/jo/WORK/RISC-V/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-23206-saturn
+
+Xilinx Environment Variables
+----------------------------
+JAVA_HOME: /usr/lib/jvm/java-8-openjdk-amd64
+RDI_APPROOT: /usr/local/packages/xilinx/Vivado/2022.2
+RDI_BASEROOT: /usr/local/packages/xilinx/Vivado
+RDI_BINROOT: /usr/local/packages/xilinx/Vivado/2022.2/bin
+RDI_BUILD: yes
+RDI_DATADIR: /usr/local/packages/xilinx/Vivado/2022.2/data
+RDI_INSTALLROOT: /usr/local/packages/xilinx
+RDI_INSTALLVER: 2022.2
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 11.0.11_9
+RDI_LIBDIR: /usr/local/packages/xilinx/Vivado/2022.2/lib/lnx64.o/Ubuntu:/usr/local/packages/xilinx/Vivado/2022.2/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /usr/local/packages/xilinx/Vivado/2022.2/ids_lite/ISE/bin/lin64
+RDI_PROG: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/vivado
+RDI_TPS_ROOT: /usr/local/packages/xilinx/Vivado/2022.2/tps/lnx64
+RDI_USE_JDK11: True
+VITIS_HLS_HOME: /usr/local/packages/xilinx/Vitis_HLS/2022.2
+VIVADO_HOME: /usr/local/packages/xilinx/Vivado/2022.2/
+XILINX: /usr/local/packages/xilinx/Vivado/2022.2/ids_lite/ISE
+XILINX_DSP: /usr/local/packages/xilinx/Vivado/2022.2/ids_lite/ISE
+XILINX_HLS: /usr/local/packages/xilinx/Vitis_HLS/2022.2
+XILINX_PLANAHEAD: /usr/local/packages/xilinx/Vivado/2022.2
+XILINX_VITIS: 
+XILINX_VIVADO: /usr/local/packages/xilinx/Vivado/2022.2
+XILINX_VIVADO_HLS: /usr/local/packages/xilinx/Vivado/2022.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,526 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// WARNING: HEventQueue.dispatchEvent() is taking  1165 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 3528ms to process. Increasing delay to 5000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3535 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,550 MB. GUI used memory: 57 MB. Current time: 1/6/23, 2:39:41 PM KST
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/titan/jo/WORK/RISC-V/simple_RISC-V.xpr", 0); // b.a
+// [GUI Memory]: 61 MB (+60986kb) [00:00:19]
+// [Engine Memory]: 1,551 MB (+1474669kb) [00:00:19]
+// Opening Vivado Project: /home/titan/jo/WORK/RISC-V/simple_RISC-V.xpr. Version: Vivado v2022.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 92 MB (+30330kb) [00:00:23]
+// [GUI Memory]: 103 MB (+5883kb) [00:00:24]
+// [Engine Memory]: 1,663 MB (+36537kb) [00:00:24]
+// WARNING: HEventQueue.dispatchEvent() is taking  4461 ms.
+// Tcl Message: open_project /home/titan/jo/WORK/RISC-V/simple_RISC-V.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx/Vivado/2022.2/data/ip'. 
+// [GUI Memory]: 117 MB (+9570kb) [00:00:26]
+// WARNING: HEventQueue.dispatchEvent() is taking  1089 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:06 . Memory (MB): peak = 6992.273 ; gain = 117.836 ; free physical = 1436 ; free virtual = 111601 
+// Project name: simple_RISC-V; location: /home/titan/jo/WORK/RISC-V; part: xc7a100tcsg324-1
+// WARNING: HEventQueue.dispatchEvent() is taking  1150 ms.
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bq
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,773 MB. GUI used memory: 62 MB. Current time: 1/6/23, 2:39:58 PM KST
+// [Engine Memory]: 1,773 MB (+27608kb) [00:00:37]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 87 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v)]", 1); // D
+// PAPropertyPanels.initPanels (Pc_Rom.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), Pc_Rom (Pc_Rom.v)]", 4, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), Pc_Rom (Pc_Rom.v)]", 4, true, false, false, false, true, false); // D - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ao
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // f: TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Remove Sources"); // U
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/Pc_Rom.v] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/Pc_Rom.v 
+// WARNING: HEventQueue.dispatchEvent() is taking  1617 ms.
+// Tcl Message: file delete -force /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/Pc_Rom.v 
+dismissDialog("Remove Sources"); // bq
+// HMemoryUtils.trashcanNow. Engine heap size: 1,791 MB. GUI used memory: 64 MB. Current time: 1/6/23, 2:41:33 PM KST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), pc_rom : PC_ROM (PC_ROM.xci)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), pc_rom : PC_ROM (PC_ROM.xci)]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // al
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ao
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // U
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/PC_ROM/PC_ROM.xci] -no_script -reset -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: remove_files  -fileset PC_ROM /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/PC_ROM/PC_ROM.xci 
+// TclEventType: RUN_RESET
+// WARNING: HEventQueue.dispatchEvent() is taking  1929 ms.
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [Project 1-386] Moving file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/PC_ROM/PC_ROM.xci' from fileset 'PC_ROM' to fileset 'sources_1'. INFO: [Project 1-386] Moving file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/PC_ROM.xcix' from fileset 'PC_ROM' to fileset 'sources_1'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: delete_ip_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 7087.750 ; gain = 0.000 ; free physical = 1471 ; free virtual = 111611 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: remove_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 7090.750 ; gain = 3.000 ; free physical = 1491 ; free virtual = 111631 
+// WARNING: HEventQueue.dispatchEvent() is taking  1154 ms.
+// Tcl Message: file delete -force /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/PC_ROM.xcix 
+// WARNING: HEventQueue.dispatchEvent() is taking  1122 ms.
+// Elapsed time: 10 seconds
+dismissDialog("Remove Sources"); // bq
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1184ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1184 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,849 MB. GUI used memory: 65 MB. Current time: 1/6/23, 2:41:58 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  1016 ms.
+// Elapsed time: 91 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // f
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), pc_rom : xil_defaultlib.PC_ROM]", 3, false); // D
+// WARNING: HEventQueue.dispatchEvent() is taking  1637 ms.
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), pc_rom : xil_defaultlib.PC_ROM]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ao
+// [Engine Memory]: 1,876 MB (+15132kb) [00:04:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,876 MB. GUI used memory: 68 MB. Current time: 1/6/23, 2:43:43 PM KST
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1269 ms.
+selectCodeEditor("simple_RISC.v", 40, 321); // ac
+selectCodeEditor("simple_RISC.v", 3, 324); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // o
+// WARNING: HEventQueue.dispatchEvent() is taking  1104 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,900 MB. GUI used memory: 69 MB. Current time: 1/6/23, 2:44:04 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  1111 ms.
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "rom"); // OverlayTextField
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false); // z
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false, false, false, false, false, true); // z - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// WARNING: HEventQueue.dispatchEvent() is taking  2359 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3046 ms.
+dismissDialog("Customize IP"); // i
+// [GUI Memory]: 128 MB (+5564kb) [00:05:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  1411 ms.
+// Elapsed time: 127 seconds
+selectComboBox("Memory Type (Memory_Type)", "Single Port ROM", 3); // D
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // ba
+// Elapsed time: 25 seconds
+setText("Defines the PortA Write Width(DINA)", "32"); // v
+setText("Write Depth", "32"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+selectCheckBox((HResource) null, "Load Init File", true); // f: TRUE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,922 MB. GUI used memory: 79 MB. Current time: 1/6/23, 2:47:09 PM KST
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a
+// WARNING: HEventQueue.dispatchEvent() is taking  1544 ms.
+// Elapsed time: 15 seconds
+setFileChooser("/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe");
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+// Elapsed time: 28 seconds
+setText("Component Name", "IM"); // v
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // ba
+// Elapsed time: 33 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectComboBox("Memory Type (Memory_Type)", "Single Port RAM", 0); // D
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectComboBox("Memory Type (Memory_Type)", "Single Port ROM", 3); // D
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+// WARNING: HEventQueue.dispatchEvent() is taking  1553 ms.
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // ba
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Customize IP"); // m
+// TclEventType: CREATE_IP_CORE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name IM 
+// Tcl Message: INFO: [filemgmt 56-101] Creating core container '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM.xcix' for IP 'IM' 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1070 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list \   CONFIG.Coe_File {/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe} \   CONFIG.Component_Name {IM} \   CONFIG.Load_Init_File {true} \   CONFIG.Memory_Type {Single_Port_ROM} \   CONFIG.Write_Depth_A {32} \   CONFIG.Write_Width_A {32} \ ] [get_ips IM] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../new/ROM.coe' 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IM'... 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Customize IP"); // bq
+// WARNING: updateGUI() is taking  1325 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1325 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1220 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1116ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1116 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1057 ms.
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  1209 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,961 MB. GUI used memory: 77 MB. Current time: 1/6/23, 2:49:18 PM KST
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1136 ms.
+// Elapsed time: 208 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// [Engine Memory]: 1,977 MB (+7282kb) [00:13:26]
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IM'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IM'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'IM'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IM'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all IM] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP IM, cache-ID = 80b8c7fe4cd89d92; cache size = 0.293 MB. 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,995 MB. GUI used memory: 81 MB. Current time: 1/6/23, 2:52:53 PM KST
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// WARNING: HEventQueue.dispatchEvent() is taking  1424 ms.
+// Elapsed time: 93 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v)]", 1); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "simple_RISC.v", 2); // o
+// WARNING: HEventQueue.dispatchEvent() is taking  1117 ms.
+selectCodeEditor("simple_RISC.v", 59, 322); // ac
+// Elapsed time: 16 seconds
+selectCodeEditor("simple_RISC.v", 635, 220); // ac
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,047 MB. GUI used memory: 76 MB. Current time: 1/6/23, 2:55:03 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  3297 ms.
+// Elapsed time: 223 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f
+// WARNING: HEventQueue.dispatchEvent() is taking  1099 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1361 ms.
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// WARNING: HEventQueue.dispatchEvent() is taking  1040 ms.
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-12490] The selected simulation model for 'IM' IP changed to 'rtl' from '', the simulation run directory will be deleted. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim' 
+// Tcl Message: xvlog --incr --relax -prj tb_vlog.prj 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim' 
+// Tcl Message: xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+// Tcl Message: Vivado Simulator v2022.2 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved. Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log  Using 8 slave threads. Starting static elaboration Pass Through NonSizing Optimizer 
+// TclEventType: LAUNCH_SIM
+// WARNING: HEventQueue.dispatchEvent() is taking  1121 ms.
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot tb_behav 
+// Tcl Message: execute_script: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 7367.723 ; gain = 0.000 ; free physical = 1391 ; free virtual = 111531 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1273 ms.
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 18 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// WARNING: HEventQueue.dispatchEvent() is taking  1193 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [Engine Memory]: 2,079 MB (+4231kb) [00:19:38]
+// Tcl Message: open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,084 MB. GUI used memory: 81 MB. Current time: 1/6/23, 2:59:00 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  1259 ms.
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// WARNING: HEventQueue.dispatchEvent() is taking  1139 ms.
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1073 ms.
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,086 MB. GUI used memory: 82 MB. Current time: 1/6/23, 2:59:04 PM KST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message:  Block Memory Generator module loading initial data...  Block Memory Generator data initialization complete. Block Memory Generator module tb.dut.Instruction_Memory.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior. 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 7370.922 ; gain = 3.199 ; free physical = 1379 ; free virtual = 111520 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 7370.922 ; gain = 3.199 ; free physical = 1379 ; free virtual = 111520 
+// 'd' command handler elapsed time: 27 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 128, 113); // b
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 136 MB (+1871kb) [00:19:54]
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 169, 113); // b
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// HMemoryUtils.trashcanNow. Engine heap size: 2,086 MB. GUI used memory: 81 MB. Current time: 1/6/23, 2:59:18 PM KST
+// Elapsed time: 21 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, out[31:0]]", 2, true, false, false, false, true, false); // m - Popup Trigger - Node
+selectMenu("Signal Color"); // al
+selectMenu("Radix"); // al
+selectMenu("Radix"); // al
+selectMenu("Signal Color"); // al
+selectMenu("Waveform Style"); // al
+selectMenu("Name"); // al
+selectMenu("Name"); // al
+selectMenu("Waveform Style"); // al
+selectMenu("Signal Color"); // al
+selectMenu("Radix"); // al
+// WARNING: HEventQueue.dispatchEvent() is taking  1199 ms.
+selectMenuItem((HResource) null, "Unsigned Decimal"); // ac
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HEventQueue.dispatchEvent() is taking  1139 ms.
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, out[4:0]]", 3, true); // m - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,087 MB. GUI used memory: 81 MB. Current time: 1/6/23, 2:59:50 PM KST
+// WARNING: HEventQueue.dispatchEvent() is taking  1141 ms.
+// Elapsed time: 251 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, out[4:0]]", 3, true); // m - Node
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "simple_RISC.v", 0); // o
+// Elapsed time: 1091 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 1); // aa
+// WARNING: HEventQueue.dispatchEvent() is taking  1215 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1079 ms.
+// PAPropertyPanels.initPanels (IM.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), Instruction_Memory : IM (IM.xci)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, simple_RISC (simple_RISC.v), Instruction_Memory : IM (IM.xci)]", 3, false, false, false, false, true, false); // D - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// WARNING: HEventQueue.dispatchEvent() is taking  2595 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1569 ms.
+// Elapsed time: 31 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+// WARNING: HEventQueue.dispatchEvent() is taking  1053 ms.
+// Elapsed time: 20 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // ba
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_EDIT, "Edit"); // a
+// WARNING: HEventQueue.dispatchEvent() is taking  1279 ms.
+// Elapsed time: 34 seconds
+selectButton(PAResourceEtoH.HACGCCoeFileDialog_VALIDATE, "Validate"); // a
+// Elapsed time: 41 seconds
+selectButton("OptionPane.button", "Cancel"); // JButton
+// Elapsed time: 26 seconds
+selectButton(PAResourceEtoH.HACGCCoeFileDialog_CLOSE, "Close"); // a
+// WARNING: HEventQueue.dispatchEvent() is taking  1135 ms.
+// Elapsed time: 29 seconds
+selectButton("OptionPane.button", "Discard"); // JButton
+// HMemoryUtils.trashcanNow. Engine heap size: 2,159 MB. GUI used memory: 90 MB. Current time: 1/6/23, 3:25:48 PM KST
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Re-customize IP"); // m
+// WARNING: HEventQueue.dispatchEvent() is taking  1183 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1193 ms.
+// Elapsed time: 53 seconds
+closeMainWindow("simple_RISC-V - [/home/titan/jo/WORK/RISC-V/simple_RISC-V.xpr] - Vivado 2022.2"); // aK
+// Run Command: PAResourceCommand.PACommandNames_EXIT
+// [GUI Memory]: 145 MB (+1560kb) [00:52:47]

@@ -1,0 +1,896 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jan  6 16:16:12 2023
+# Process ID: 32084
+# Current directory: /home/titan/jo/WORK/RISC-V
+# Command line: vivado
+# Log file: /home/titan/jo/WORK/RISC-V/vivado.log
+# Journal file: /home/titan/jo/WORK/RISC-V/vivado.jou
+# Running On: saturn, OS: Linux, CPU Frequency: 1260.395 MHz, CPU Physical cores: 16, Host memory: 135114 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/titan/jo/WORK/RISC-V/simple_RISC-V.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /usr/local/packages/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:17 . Memory (MB): peak = 7117.070 ; gain = 267.605 ; free physical = 2651 ; free virtual = 112792
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ena' [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.dut.Instruction_Memory.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 7214.277 ; gain = 0.000 ; free physical = 2655 ; free virtual = 112797
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 7214.277 ; gain = 28.184 ; free physical = 2656 ; free virtual = 112797
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 7214.277 ; gain = 28.184 ; free physical = 2656 ; free virtual = 112798
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../../../simple_RISC-V.srcs/sources_1/new/ROM.coe'
+set_property CONFIG.Coe_File {/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe} [get_ips IM]
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../new/ROM.coe'
+generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IM'...
+catch { config_ip_cache -export [get_ips -all IM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: IM
+export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+launch_runs IM_synth_1 -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: IM
+[Fri Jan  6 16:22:14 2023] Launched IM_synth_1...
+Run output will be captured here: /home/titan/jo/WORK/RISC-V/simple_RISC-V.runs/IM_synth_1/runme.log
+export_simulation -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/sim_scripts -ip_user_files_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files -ipstatic_source_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/modelsim} {questa=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/questa} {xcelium=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/xcelium} {vcs=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/vcs} {riviera=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_sim_netlist.vhdl' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_sim_netlist.v' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_stub.vhdl' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_stub.v' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM.dcp' for reading
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ip/IM/sim/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/Program_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_RISC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ena' [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.simple_RISC
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+execute_script: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 7316.117 ; gain = 0.000 ; free physical = 1522 ; free virtual = 111664
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.dut.Instruction_Memory.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 7316.117 ; gain = 0.000 ; free physical = 963 ; free virtual = 111105
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 7316.117 ; gain = 0.000 ; free physical = 963 ; free virtual = 111105
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../../../simple_RISC-V.srcs/sources_1/new/ROM.coe'
+set_property CONFIG.Coe_File {/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe} [get_ips IM]
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../new/ROM.coe'
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ena' [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v:32]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.dut.Instruction_Memory.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 7504.043 ; gain = 0.000 ; free physical = 2521 ; free virtual = 112664
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 7504.043 ; gain = 0.000 ; free physical = 2522 ; free virtual = 112665
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+delete_ip_run [get_files -of_objects [get_fileset IM] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.runs/IM_synth_1
+
+INFO: [Project 1-386] Moving file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci' from fileset 'IM' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM.xcix' from fileset 'IM' to fileset 'sources_1'.
+set_property generate_synth_checkpoint false [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IM'...
+export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/sim_scripts -ip_user_files_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files -ipstatic_source_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/modelsim} {questa=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/questa} {xcelium=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/xcelium} {vcs=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/vcs} {riviera=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../../../simple_RISC-V.srcs/sources_1/new/ROM.coe'
+set_property CONFIG.Coe_File {/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe} [get_ips IM]
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../new/ROM.coe'
+set_property generate_synth_checkpoint true [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IM'...
+catch { config_ip_cache -export [get_ips -all IM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: IM
+export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+launch_runs IM_synth_1 -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: IM
+[Fri Jan  6 16:29:21 2023] Launched IM_synth_1...
+Run output will be captured here: /home/titan/jo/WORK/RISC-V/simple_RISC-V.runs/IM_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 7565.086 ; gain = 47.027 ; free physical = 2534 ; free virtual = 112675
+export_simulation -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/sim_scripts -ip_user_files_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files -ipstatic_source_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/modelsim} {questa=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/questa} {xcelium=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/xcelium} {vcs=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/vcs} {riviera=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_sim_netlist.vhdl' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_sim_netlist.v' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_stub.vhdl' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM_stub.v' for reading
+CRITICAL WARNING: [filemgmt 56-117] Could not open file 'IM/IM.dcp' for reading
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ip/IM/sim/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/Program_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_RISC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ena' [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.simple_RISC
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+execute_script: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 7616.973 ; gain = 0.000 ; free physical = 888 ; free virtual = 111031
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.dut.Instruction_Memory.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 7616.973 ; gain = 0.000 ; free physical = 938 ; free virtual = 111089
+xsim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 7616.973 ; gain = 0.000 ; free physical = 938 ; free virtual = 111089
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:26 . Memory (MB): peak = 7616.973 ; gain = 0.000 ; free physical = 938 ; free virtual = 111089
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../../../simple_RISC-V.srcs/sources_1/new/ROM.coe'
+export_ip_user_files -of_objects  [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -no_script -reset -force -quiet
+remove_files  -fileset IM /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci
+INFO: [Project 1-386] Moving file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci' from fileset 'IM' to fileset 'sources_1'.
+INFO: [Project 1-386] Moving file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM.xcix' from fileset 'IM' to fileset 'sources_1'.
+file delete -force /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM.xcix
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../../../simple_RISC-V.srcs/sources_1/new/ROM.coe'
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0
+INFO: [filemgmt 56-101] Creating core container '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0.xcix' for IP 'blk_mem_gen_0'
+set_property -dict [list \
+  CONFIG.Coe_File {/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {32} \
+  CONFIG.Write_Width_A {32} \
+] [get_ips blk_mem_gen_0]
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../new/ROM.coe'
+generate_target {instantiation_template} [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: blk_mem_gen_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1e433f9bd415fc22 to dir: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_stub.vhdl to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_sim_netlist.vhdl to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_stub.v to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_sim_netlist.v to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM.dcp to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP blk_mem_gen_0, cache-ID = 1e433f9bd415fc22; cache size = 0.585 MB.
+export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci'
+export_simulation -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/sim_scripts -ip_user_files_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files -ipstatic_source_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/modelsim} {questa=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/questa} {xcelium=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/xcelium} {vcs=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/vcs} {riviera=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -reset -force -quiet
+remove_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+file delete -force /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/blk_mem_gen_0.xcix
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../../../simple_RISC-V.srcs/sources_1/new/ROM.coe'
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name IM
+INFO: [filemgmt 56-101] Creating core container '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM.xcix' for IP 'IM'
+set_property -dict [list \
+  CONFIG.Coe_File {/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe} \
+  CONFIG.Component_Name {IM} \
+  CONFIG.Load_Init_File {true} \
+  CONFIG.Memory_Type {Single_Port_ROM} \
+  CONFIG.Write_Depth_A {32} \
+  CONFIG.Write_Width_A {32} \
+] [get_ips IM]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'IM' to 'IM' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ROM.coe' provided. It will be converted relative to IP Instance files '../../new/ROM.coe'
+generate_target {instantiation_template} [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'IM'...
+generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'IM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'IM'...
+catch { config_ip_cache -export [get_ips -all IM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: IM
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1e433f9bd415fc22 to dir: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_stub.vhdl to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_sim_netlist.vhdl to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_stub.v to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM_sim_netlist.v to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/ip/2022.2/1/e/1e433f9bd415fc22/IM.dcp to /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.dcp
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP IM, cache-ID = 1e433f9bd415fc22; cache size = 0.585 MB.
+export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci'
+export_simulation -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/IM/IM.xci] -directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/sim_scripts -ip_user_files_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files -ipstatic_source_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/modelsim} {questa=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/questa} {xcelium=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/xcelium} {vcs=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/vcs} {riviera=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ip/IM/sim/IM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IM
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/Program_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Program_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simple_RISC
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ena' [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/simple_RISC.v:32]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_output_stage(...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_5.blk_mem_gen_v8_4_5(C_FAMILY="art...
+Compiling module xil_defaultlib.IM
+Compiling module xil_defaultlib.simple_RISC
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+execute_script: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 7797.891 ; gain = 0.000 ; free physical = 2457 ; free virtual = 112600
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module tb.dut.Instruction_Memory.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 7797.891 ; gain = 0.000 ; free physical = 2459 ; free virtual = 112603
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 7797.891 ; gain = 0.000 ; free physical = 2460 ; free virtual = 112603
+close [ open /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ALU.v w ]
+add_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ALU.v
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/dut/PC/out was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 7872.801 ; gain = 0.000 ; free physical = 2376 ; free virtual = 112519
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 7872.801 ; gain = 0.000 ; free physical = 2376 ; free virtual = 112519
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+ERROR: [VRFC 10-4982] syntax error near 'end' [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v:58]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'end' used in incorrect context [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v:58]
+ERROR: [VRFC 10-8530] module 'tb' is ignored due to previous errors [/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v:23]
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/dut/PC/out was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 14 ns : File "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" Line 57
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 7879.797 ; gain = 0.000 ; free physical = 2344 ; free virtual = 112487
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 7879.797 ; gain = 0.000 ; free physical = 2344 ; free virtual = 112487
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/usr/local/packages/xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/usr/local/packages/xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/IM.mif'
+INFO: [SIM-utils-43] Exported '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim/ROM.data'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/titan/jo/WORK/RISC-V/simple_RISC-V.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {/home/titan/jo/WORK/RISC-V/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/titan/jo/WORK/RISC-V/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/dut/PC/out was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/addra was not found in the design.
+WARNING: Simulation object /tb/dut/pc_rom/douta was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 14 ns : File "/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sim_1/new/tb.v" Line 57
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7912.816 ; gain = 0.000 ; free physical = 2349 ; free virtual = 112492
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 7912.816 ; gain = 0.000 ; free physical = 2348 ; free virtual = 112491
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 7912.816 ; gain = 0.000 ; free physical = 2348 ; free virtual = 112492
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name DM
+INFO: [filemgmt 56-101] Creating core container '/home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/DM.xcix' for IP 'DM'
+set_property -dict [list \
+  CONFIG.Component_Name {DM} \
+  CONFIG.Write_Depth_A {32} \
+  CONFIG.Write_Width_A {32} \
+] [get_ips DM]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'DM' to 'DM' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/DM/DM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'DM'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/DM/DM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'DM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'DM'...
+catch { config_ip_cache -export [get_ips -all DM] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: DM
+export_ip_user_files -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/DM/DM.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/DM/DM.xci]
+launch_runs DM_synth_1 -jobs 16
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: DM
+[Fri Jan  6 17:40:06 2023] Launched DM_synth_1...
+Run output will be captured here: /home/titan/jo/WORK/RISC-V/simple_RISC-V.runs/DM_synth_1/runme.log
+export_simulation -of_objects [get_files /home/titan/jo/WORK/RISC-V/simple_RISC-V.srcs/sources_1/ip/DM/DM.xci] -directory /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/sim_scripts -ip_user_files_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files -ipstatic_source_dir /home/titan/jo/WORK/RISC-V/simple_RISC-V.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/modelsim} {questa=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/questa} {xcelium=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/xcelium} {vcs=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/vcs} {riviera=/home/titan/jo/WORK/RISC-V/simple_RISC-V.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan  6 17:58:11 2023...
